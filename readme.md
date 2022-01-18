@@ -110,7 +110,7 @@
     ```python
     nlp = StanfordCoreNLP("http://localhost", port=9000)
     nlp_data = RDF(load=True, file="nlp_data.csv", columns=["name", "relation", "object"])
-index = 0
+    index = 0
     for i in tqdm(person_name):
         if wiki_data.get(i, False):
             if not wiki_data[i].get("text_wiki_en",False):
