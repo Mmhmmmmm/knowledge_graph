@@ -102,7 +102,7 @@
   - console run 
 
     ```bash
-  java -Xmx4g -cp "E:\stanford-corenlp-latest\stanford-corenlp-4.2.0\*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000
+    java -Xmx4g -cp "E:\stanford-corenlp-latest\stanford-corenlp-4.2.0\*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000
     ```
 
   - code
